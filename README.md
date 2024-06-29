@@ -1,4 +1,4 @@
-# Responsive Navbar w Toggle dark-white Mode
+# Responsive Navbar with Toggle dark-white Mode
 z
 
 This template is a starter for building a website with HTML, CSS and JS, powered by [Vite](https://vitejs.dev/). HTML provides the basic structure, CSS controls formatting, and JavaScript controls the behavior of different elements.
