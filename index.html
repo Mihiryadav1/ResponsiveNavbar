@@ -1,0 +1,93 @@
+<!--
+  Hit RUN to see this project in action!
+  
+  This project will auto-refresh as you edit the HTML, CSS and JS. See README.md for more info (including how to disable auto-refresh and install packages).
+-->
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Sidebar</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav class="sidebar">
+      <header>
+        <div class="image-text">
+          <span class="image">
+            <img class="logo" src="logo.png" />
+          </span>
+          <div class="text header-text">
+            <span class="name">NatureWorks</span>
+            <span class="profession">Web Agency</span>
+          </div>
+        </div>
+
+        <i class="icon bx bx-chevron-right toggle"></i>
+      </header>
+      <div class="menu-bar">
+        <div class="menu menu-item">
+          <ul class="menu-list">
+            <li class="nav-link search-box">
+              <i class='icons bx bx-search search-icon'></i>
+             <input  type="search" placeholder="...search"/>
+            </li>
+            <li class="nav-link">
+              <i class='icons bx bx-grid-alt'></i>
+              <span class="list-item">Dashboard</span>
+            </li>
+            <li class="nav-link">
+              <i class='icons bx bx-bar-chart-alt-2' ></i>
+              <span class="list-item">Revenue</span>
+            </li>
+            <li class="nav-link">
+              <i class='icons bx bx-bell' ></i>
+              <span class="list-item">Notify</span>
+            </li>
+            <li class="nav-link">
+              <i class='icons bx bx-pie-chart-alt' ></i>
+              <span class="list-item">Analytics</span>
+            </li>
+            <li class="nav-link">
+              <i class='icons bx bx-heart' ></i>
+              <span class="list-item">Like</span>
+            </li>
+            <li class="nav-link">
+              <i class='icons bx bx-wallet'></i>
+              <span class="list-item">Wallets</span>
+            </li>
+          </ul>
+        </div>
+       <div class="bottom-menu-bar  menu-item">
+         <ul class="bottom-menu-list">
+           <li class="nav-link">
+             <i class='icons bx bx-log-out'></i>
+             <span class="list-item">Logout</span>
+           </li>
+           <li class="nav-link moon-sun-list">
+             <div class="moon-sun">
+                <i class='icons bx bx-moon'></i>              
+             </div>
+              <span class="list-item mode-text text">Dark Mode</span>
+              <div class="toggle-switch">
+               <span class="switch"></span>  
+             </div>
+            </li>
+         </ul>
+       </div>
+      </div>
+    </nav>
+
+    <div class="padding-big main-body">
+      <span><h1>Navbar</h1></span>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
